@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cat extends Model
 {
-    protected $fillable = ['name'];
+    protected $fillable =['name'];
 
     public function cats()
     {
